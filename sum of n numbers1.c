@@ -3,7 +3,7 @@
 
 int main()
 {
-    int n,i=1;
+    int n,i;
     printf("Enter the value of n:");
     scanf("%d", &n);
 
@@ -16,3 +16,4 @@ int main()
 
     return 0;
 }
+
