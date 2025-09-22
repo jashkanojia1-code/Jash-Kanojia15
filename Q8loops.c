@@ -9,11 +9,12 @@ int main()
     printf("The sum of first %d odd numbers is : \n",n);
     int sum=0;
     
-    for(i=1;i<=2*n-1;i+=2)
+    for(i=1;i<=2*n-1;i+2)
     {
         sum+=i;
         
     }
     printf("%d", sum);
     return 0;
+
 }
