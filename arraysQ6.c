@@ -15,7 +15,7 @@ int main()
     scanf("%d %d", &r2, &c2);
 
 
-    //condition checkinfg for multiplication
+    //condition checking for multiplication
 
     if(c1!=r2)
     {
@@ -80,5 +80,6 @@ int main()
     }
 
     return 0;
+
 
 }
