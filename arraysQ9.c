@@ -16,7 +16,7 @@ int main()
         scanf("%d", &a[i]);
     }
 
-    // Two-pointer reverse logic
+    // Two-pointer approach
     int start = 0, end = size - 1;
     while (start < end)
     {
@@ -27,13 +27,14 @@ int main()
         end--;
     }
 
-    // Output reversed array
+    // Output array
     printf("Reversed array: ");
     for (int i = 0; i < size; i++)
     {
         printf("%d ", a[i]);
     }
 
-    printf("\n"); // newline for clarity
+    printf("\n");
     return 0;
 }
+
