@@ -28,7 +28,7 @@ int main()
 
     //resulting array
 
-    printf("After deleting the first element: \n");
+    printf("After deleting the element: \n");
 
     for(int i = 0; i < n; i++)
     {
@@ -36,6 +36,7 @@ int main()
     }
 
     return 0;
+
 
 
 }
